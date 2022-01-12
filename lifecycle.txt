@@ -1,0 +1,9 @@
+Component life cycle 
+ 1. beforeCreate() <-> when the component is being loaded
+ 2. created() <-> components are initialized <-> we can access the reactive properties
+ 3. beforeMount() <-> render <-> content is loaded
+ 4. mount() <-> the app will be mounted into the element
+ 5. beforeUpdate <-> when any reactive property changes
+ 6. updated <-> Ghiafe avaz shod!
+ 7. beforeDestroy <-> is run right before the component is unmounted
+ 8. destroyed <-> component is destroyed

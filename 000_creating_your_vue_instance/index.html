@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vue App</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <div id="app">
+        count: {{ myson.name }}
+    </div>
+    <script>
+        const Counter = {
+            data() {
+                return {
+                    count: 4,
+                    car: {
+                        name: 'bugatti'
+                    },
+                    myson: {
+                        name: 'Mohammd Hossein'
+                    }
+                };
+            }
+        };
+        Vue.createApp(Counter).mount("#app");
+    </script>
+</body>
+
+</html>

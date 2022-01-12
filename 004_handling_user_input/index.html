@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ message }}</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p style="font-size:100px; color:blue; font-weight: bold;">{{ message }}</p>
+        <input v-model="" />
+    </div>
+    <script>
+        const App = {
+            data() {
+                return {
+                    message: "سلام بر مهدی"
+                };
+            }
+        };
+        Vue.createApp(App).mount("html");
+    </script>
+</body>
+</html>
